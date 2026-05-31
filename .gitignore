@@ -1,0 +1,26 @@
+# Ambiente virtual
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Banco SQLite local
+database_logistic.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Variaveis de ambiente
+.env
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
