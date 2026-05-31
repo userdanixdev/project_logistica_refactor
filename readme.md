@@ -188,22 +188,49 @@ Verificar se as foreign keys estão ativas no SQLite:
 
 - python scripts_utils/verificar_sqlite_fk.py
 ```
+### 🧾 Logs de Execução:
+
+Para fins didáticos e de documentação do projeto, esta versão mantém uma amostra dos logs gerados durante a criação e validação do banco.
+
+Os logs permitem visualizar com mais clareza o que acontece durante a execução dos scripts, incluindo instruções SQL geradas pelo SQLAlchemy e detalhes da execução dos testes automatizados com Pytest.
+
+#### 🛢️ Log do SQLAlchemy
+
+O log do SQLAlchemy registra as operações executadas pelo ORM durante a criação e inspeção do banco de dados.
+
+Arquivo:
+
+```text
+logs/sqlalchemy.log
+```
+O print abaixo mostra uma amostra do log gerado pelo SQLAlchemy durante a criação e inspeção do banco de dados.
+
+![Print do Log do SQLAlchemy](src/docs/logs_sqlalchemy.png)
+
+*Esse log ajuda a visualizar os comandos SQL executados, a criação das tabelas, inspeções feitas no banco, operações realizadas pelo engine e comportamento interno do ORM durante as validações.*
+
+#### 🧪 Print do Log do Pytest
+
+O print abaixo mostra uma amostra do log gerado durante a execução dos testes automatizados com Pytest.
+
+![Print do Log do Pytest](src/docs/logs_pytest.png)
+
 ### 🚦 Status da Versão:
 ```
 A versão inicial contempla:
 
 - configuração do projeto com Poetry
-- estrutura inicial de diretórios
+- reestruturação inicial de diretórios
 - conexão com SQLite
 - ativação de chaves estrangeiras no SQLite
 - modelos ORM com SQLAlchemy
 - script de criação do banco
-- scripts utilitários de validação
+- scripts utilitários de validação *(Logs do SQLAlchemy com inspect)*
+- testes automatizados com Pytest
 ```
 
 ### 🧭 Próximos Passos:
 
-- Criar testes automatizados.
 - Implementar a camada Bronze.
 - Implementar a camada Silver.
 - Criar carga dos dados normalizados no banco.
