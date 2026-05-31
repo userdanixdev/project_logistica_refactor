@@ -48,6 +48,28 @@ project_logistica_refactor/
 ├── pyproject.toml
 └── readme.md
 ```
+## Modelagem de Dados
+
+O projeto foi estruturado a partir de um processo de modelagem em camadas, partindo da compreensão conceitual do domínio até a implementação física do banco relacional.
+
+### Modelo Conceitual
+
+O modelo conceitual representa as principais entidades do cenário logístico e seus relacionamentos em alto nível.
+
+![Modelo Conceitual](src/docs/model_concept_peter_chen_der.png)
+
+### Modelo Lógico
+
+O modelo lógico transforma as entidades do domínio em tabelas relacionais, definindo chaves primárias, chaves estrangeiras e relacionamentos entre as estruturas.
+
+![Modelo Lógico](src/docs/model_logic_james_martin.png)
+
+### Amostra da Tabela Central
+
+A tabela central original representa a visão transacional antes do processo de normalização.
+
+![Tabela Central](src/docs/tabela_central_sample.png)
+
 
 Ambiente
 Instale as dependências com Poetry:
