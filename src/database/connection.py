@@ -16,6 +16,23 @@ logging.basicConfig(
 
 logging.getLogger("sqlalchemy.engine").setLevel(logging.DEBUG)
 
+def build_engine(database_url: str = DATABASE_URL, echo: bool = False):
+    engine = create_engine(
+        database_url,
+        echo=echo,
+        future = True,
+    )
+    if database_url.startswith("sqlite"):
+        @event.listens_for(engine,"connect")
+        def activate_keys_foreign_sqlite(dbapi_connection, connection_record):
+            cursor=dbapi_connection.cursor()
+            cursor.execute("PRAGMA foreign_keys=ON")
+            cursor.close()
+    return engine            
+
+# criamos build_engine() para o pytest executar. Dessa forma os testes conseguem criar um banco temporário separado
+# o projeto continua usando database_logistic.db normalmente.
+
 engine = create_engine(
     DATABASE_URL,
     echo = False,

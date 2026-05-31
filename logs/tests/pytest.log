@@ -1,0 +1,385 @@
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("categoria")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("categoria")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("cliente")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("cliente")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("endereco")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("endereco")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("entrega")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("entrega")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("item_pedido")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("item_pedido")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("motorista")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("motorista")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("pedido")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("pedido")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("produto")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("produto")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("veiculo")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("veiculo")
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE categoria (
+	id_categoria INTEGER NOT NULL, 
+	descricao VARCHAR(80) NOT NULL, 
+	PRIMARY KEY (id_categoria), 
+	UNIQUE (descricao)
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00022s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE cliente (
+	id_cliente INTEGER NOT NULL, 
+	nome VARCHAR(120) NOT NULL, 
+	cpf VARCHAR(14) NOT NULL, 
+	PRIMARY KEY (id_cliente), 
+	UNIQUE (cpf)
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00052s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE motorista (
+	id_motorista INTEGER NOT NULL, 
+	nome VARCHAR(120) NOT NULL, 
+	cnh VARCHAR(11) NOT NULL, 
+	PRIMARY KEY (id_motorista), 
+	UNIQUE (cnh)
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00030s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE veiculo (
+	id_veiculo INTEGER NOT NULL, 
+	placa VARCHAR(10) NOT NULL, 
+	tipo VARCHAR(40) NOT NULL, 
+	PRIMARY KEY (id_veiculo), 
+	UNIQUE (placa)
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00041s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE endereco (
+	id_endereco INTEGER NOT NULL, 
+	id_cliente INTEGER NOT NULL, 
+	logradouro VARCHAR(120) NOT NULL, 
+	numero VARCHAR(10) NOT NULL, 
+	cidade VARCHAR(80) NOT NULL, 
+	estado VARCHAR(2) NOT NULL, 
+	PRIMARY KEY (id_endereco), 
+	CONSTRAINT uq_endereco_cliente_local UNIQUE (id_cliente, logradouro, numero, cidade, estado), 
+	FOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente) ON DELETE CASCADE
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00045s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE pedido (
+	id_pedido INTEGER NOT NULL, 
+	id_cliente INTEGER NOT NULL, 
+	data_pedido DATETIME NOT NULL, 
+	PRIMARY KEY (id_pedido), 
+	FOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00039s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE produto (
+	id_produto INTEGER NOT NULL, 
+	nome VARCHAR(120) NOT NULL, 
+	preco_unitario NUMERIC(10, 2) NOT NULL, 
+	id_categoria INTEGER NOT NULL, 
+	PRIMARY KEY (id_produto), 
+	FOREIGN KEY(id_categoria) REFERENCES categoria (id_categoria) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00039s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE entrega (
+	id_entrega INTEGER NOT NULL, 
+	id_pedido INTEGER NOT NULL, 
+	id_motorista INTEGER NOT NULL, 
+	id_veiculo INTEGER NOT NULL, 
+	data_entrega DATETIME NOT NULL, 
+	PRIMARY KEY (id_entrega), 
+	FOREIGN KEY(id_pedido) REFERENCES pedido (id_pedido) ON DELETE CASCADE, 
+	FOREIGN KEY(id_motorista) REFERENCES motorista (id_motorista) ON DELETE RESTRICT, 
+	FOREIGN KEY(id_veiculo) REFERENCES veiculo (id_veiculo) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00029s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE item_pedido (
+	id_item_pedido INTEGER NOT NULL, 
+	id_pedido INTEGER NOT NULL, 
+	id_produto INTEGER NOT NULL, 
+	quantidade INTEGER NOT NULL, 
+	PRIMARY KEY (id_item_pedido), 
+	CONSTRAINT uq_item_pedido_produto UNIQUE (id_pedido, id_produto), 
+	FOREIGN KEY(id_pedido) REFERENCES pedido (id_pedido) ON DELETE CASCADE, 
+	FOREIGN KEY(id_produto) REFERENCES produto (id_produto) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [no key 0.00036s] ()
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | COMMIT
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite~_%' ESCAPE '~' ORDER BY name
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Col ('name',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('categoria',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('cliente',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('endereco',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('entrega',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('item_pedido',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('motorista',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('pedido',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('produto',)
+2026-05-31 12:39:43 | DEBUG | sqlalchemy.engine.Engine | Row ('veiculo',)
+2026-05-31 12:39:43 | INFO | sqlalchemy.engine.Engine | ROLLBACK
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA foreign_keys
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [generated in 0.00060s] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('foreign_keys',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (1,)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | ROLLBACK
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("categoria")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("categoria")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("cliente")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("cliente")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("endereco")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("endereco")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("entrega")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("entrega")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("item_pedido")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("item_pedido")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("motorista")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("motorista")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("pedido")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("pedido")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("produto")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("produto")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.table_info("veiculo")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA temp.table_info("veiculo")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('cid', 'name', 'type', 'notnull', 'dflt_value', 'pk')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE categoria (
+	id_categoria INTEGER NOT NULL, 
+	descricao VARCHAR(80) NOT NULL, 
+	PRIMARY KEY (id_categoria), 
+	UNIQUE (descricao)
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00019s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE cliente (
+	id_cliente INTEGER NOT NULL, 
+	nome VARCHAR(120) NOT NULL, 
+	cpf VARCHAR(14) NOT NULL, 
+	PRIMARY KEY (id_cliente), 
+	UNIQUE (cpf)
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00040s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE motorista (
+	id_motorista INTEGER NOT NULL, 
+	nome VARCHAR(120) NOT NULL, 
+	cnh VARCHAR(11) NOT NULL, 
+	PRIMARY KEY (id_motorista), 
+	UNIQUE (cnh)
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00064s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE veiculo (
+	id_veiculo INTEGER NOT NULL, 
+	placa VARCHAR(10) NOT NULL, 
+	tipo VARCHAR(40) NOT NULL, 
+	PRIMARY KEY (id_veiculo), 
+	UNIQUE (placa)
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00032s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE endereco (
+	id_endereco INTEGER NOT NULL, 
+	id_cliente INTEGER NOT NULL, 
+	logradouro VARCHAR(120) NOT NULL, 
+	numero VARCHAR(10) NOT NULL, 
+	cidade VARCHAR(80) NOT NULL, 
+	estado VARCHAR(2) NOT NULL, 
+	PRIMARY KEY (id_endereco), 
+	CONSTRAINT uq_endereco_cliente_local UNIQUE (id_cliente, logradouro, numero, cidade, estado), 
+	FOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente) ON DELETE CASCADE
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00029s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE pedido (
+	id_pedido INTEGER NOT NULL, 
+	id_cliente INTEGER NOT NULL, 
+	data_pedido DATETIME NOT NULL, 
+	PRIMARY KEY (id_pedido), 
+	FOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00028s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE produto (
+	id_produto INTEGER NOT NULL, 
+	nome VARCHAR(120) NOT NULL, 
+	preco_unitario NUMERIC(10, 2) NOT NULL, 
+	id_categoria INTEGER NOT NULL, 
+	PRIMARY KEY (id_produto), 
+	FOREIGN KEY(id_categoria) REFERENCES categoria (id_categoria) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00040s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE entrega (
+	id_entrega INTEGER NOT NULL, 
+	id_pedido INTEGER NOT NULL, 
+	id_motorista INTEGER NOT NULL, 
+	id_veiculo INTEGER NOT NULL, 
+	data_entrega DATETIME NOT NULL, 
+	PRIMARY KEY (id_entrega), 
+	FOREIGN KEY(id_pedido) REFERENCES pedido (id_pedido) ON DELETE CASCADE, 
+	FOREIGN KEY(id_motorista) REFERENCES motorista (id_motorista) ON DELETE RESTRICT, 
+	FOREIGN KEY(id_veiculo) REFERENCES veiculo (id_veiculo) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00029s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | 
+CREATE TABLE item_pedido (
+	id_item_pedido INTEGER NOT NULL, 
+	id_pedido INTEGER NOT NULL, 
+	id_produto INTEGER NOT NULL, 
+	quantidade INTEGER NOT NULL, 
+	PRIMARY KEY (id_item_pedido), 
+	CONSTRAINT uq_item_pedido_produto UNIQUE (id_pedido, id_produto), 
+	FOREIGN KEY(id_pedido) REFERENCES pedido (id_pedido) ON DELETE CASCADE, 
+	FOREIGN KEY(id_produto) REFERENCES produto (id_produto) ON DELETE RESTRICT
+)
+
+
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [no key 0.00059s] ()
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | COMMIT
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.foreign_key_list("pedido")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('id', 'seq', 'table', 'from', 'to', 'on_update', 'on_delete', 'match')
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (0, 0, 'cliente', 'id_cliente', 'id_cliente', 'NO ACTION', 'RESTRICT', 'NONE')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | SELECT sql FROM  (SELECT * FROM sqlite_master UNION ALL   SELECT * FROM sqlite_temp_master) WHERE name = ? AND type in ('table', 'view')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ('pedido',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('sql',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row ('CREATE TABLE pedido (\n\tid_pedido INTEGER NOT NULL, \n\tid_cliente INTEGER NOT NULL, \n\tdata_pedido DATETIME NOT NULL, \n\tPRIMARY KEY (id_pedido), \n\tFOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente) ON DELETE RESTRICT\n)',)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | ROLLBACK
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.foreign_key_list("item_pedido")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('id', 'seq', 'table', 'from', 'to', 'on_update', 'on_delete', 'match')
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (0, 0, 'produto', 'id_produto', 'id_produto', 'NO ACTION', 'RESTRICT', 'NONE')
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (1, 0, 'pedido', 'id_pedido', 'id_pedido', 'NO ACTION', 'CASCADE', 'NONE')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | SELECT sql FROM  (SELECT * FROM sqlite_master UNION ALL   SELECT * FROM sqlite_temp_master) WHERE name = ? AND type in ('table', 'view')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ('item_pedido',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('sql',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row ('CREATE TABLE item_pedido (\n\tid_item_pedido INTEGER NOT NULL, \n\tid_pedido INTEGER NOT NULL, \n\tid_produto INTEGER NOT NULL, \n\tquantidade INTEGE ... (124 characters truncated) ... IGN KEY(id_pedido) REFERENCES pedido (id_pedido) ON DELETE CASCADE, \n\tFOREIGN KEY(id_produto) REFERENCES produto (id_produto) ON DELETE RESTRICT\n)',)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | ROLLBACK
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | PRAGMA main.foreign_key_list("entrega")
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ()
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('id', 'seq', 'table', 'from', 'to', 'on_update', 'on_delete', 'match')
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (0, 0, 'veiculo', 'id_veiculo', 'id_veiculo', 'NO ACTION', 'RESTRICT', 'NONE')
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (1, 0, 'motorista', 'id_motorista', 'id_motorista', 'NO ACTION', 'RESTRICT', 'NONE')
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row (2, 0, 'pedido', 'id_pedido', 'id_pedido', 'NO ACTION', 'CASCADE', 'NONE')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | SELECT sql FROM  (SELECT * FROM sqlite_master UNION ALL   SELECT * FROM sqlite_temp_master) WHERE name = ? AND type in ('table', 'view')
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | [raw sql] ('entrega',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Col ('sql',)
+2026-05-31 12:39:44 | DEBUG | sqlalchemy.engine.Engine | Row ('CREATE TABLE entrega (\n\tid_entrega INTEGER NOT NULL, \n\tid_pedido INTEGER NOT NULL, \n\tid_motorista INTEGER NOT NULL, \n\tid_veiculo INTEGER NOT  ... (166 characters truncated) ... _motorista) REFERENCES motorista (id_motorista) ON DELETE RESTRICT, \n\tFOREIGN KEY(id_veiculo) REFERENCES veiculo (id_veiculo) ON DELETE RESTRICT\n)',)
+2026-05-31 12:39:44 | INFO | sqlalchemy.engine.Engine | ROLLBACK

@@ -14,8 +14,8 @@ database_logistic.db
 *.sqlite3
 
 # Logs
-logs/
-*.log
+.pytest_tmp/
+
 
 # Variaveis de ambiente
 .env
