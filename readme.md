@@ -55,6 +55,17 @@ project_logistica_refactor/
 ├── pyproject.toml
 └── readme.md
 ```
+
+---
+
+### 🗂️ Amostra da Tabela Central
+
+A tabela central original representa a visão transacional antes do processo de normalização.
+
+![Tabela Central](src/docs/tabela_central_sample.png)
+
+---
+
 ## 🧠 Modelagem de Dados
 
 O projeto foi estruturado a partir de um processo de modelagem em camadas, partindo da compreensão conceitual do domínio até a implementação física do banco relacional.
@@ -106,17 +117,6 @@ As regras de exclusão foram definidas com base na dependência entre as entidad
   - Veículo → Entrega  
 
 Além disso, o ORM SQLAlchemy foi configurado com `cascade="all, delete-orphan"` nos relacionamentos apropriados, garantindo a remoção automática de registros órfãos no nível da aplicação.
-
----
-
-### 🗂️ Amostra da Tabela Central
-
-A tabela central original representa a visão transacional antes do processo de normalização.
-
-![Tabela Central](src/docs/tabela_central_sample.png)
-
----
-
 
 ## 🧩 Tecnologias:
 
