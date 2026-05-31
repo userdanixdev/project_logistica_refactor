@@ -1,4 +1,4 @@
-# Project Logistica Refactor:
+# Project Logística Refactor:
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Poetry](https://img.shields.io/badge/Poetry-Dependency%20Management-60A5FA)
