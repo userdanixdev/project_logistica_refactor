@@ -73,14 +73,7 @@ O modelo lógico transforma as entidades do domínio em tabelas relacionais, def
 
 ![Modelo Lógico](src/docs/model_logic_james_martin.png)
 
-### 🗂️ Amostra da Tabela Central
-
-A tabela central original representa a visão transacional antes do processo de normalização.
-
-![Tabela Central](src/docs/tabela_central_sample.png)
-
 ---
-
 ### 🛢️ Modelo Físico:
 
 O modelo físico foi implementado utilizando **SQLAlchemy**, respeitando as decisões tomadas nas etapas anteriores e aplicando regras de integridade diretamente no banco de dados.
@@ -113,6 +106,16 @@ As regras de exclusão foram definidas com base na dependência entre as entidad
   - Veículo → Entrega  
 
 Além disso, o ORM SQLAlchemy foi configurado com `cascade="all, delete-orphan"` nos relacionamentos apropriados, garantindo a remoção automática de registros órfãos no nível da aplicação.
+
+---
+
+### 🗂️ Amostra da Tabela Central
+
+A tabela central original representa a visão transacional antes do processo de normalização.
+
+![Tabela Central](src/docs/tabela_central_sample.png)
+
+---
 
 
 ## 🧩 Tecnologias:
